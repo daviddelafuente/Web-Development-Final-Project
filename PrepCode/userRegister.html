@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> PrepCode - User Registration</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="body">
+  <div>
+  <h1 class="h1">Prep Code</h1>
+  <span style id="infoSpan">
+  Creating solutions from a network of problems.
+  </span>
+  </div>
+
+  <fieldset id="registerFieldset">
+    <legend class="legend">Registration</legend>
+    
+    <div>
+      <p>First Name</p>
+      <input id="registerFirstName" class="registerTextfield" type="text">
+      <span id="errorRegisterFirstName" class="registerErrorSpan"></span>
+      </br>
+      
+      <p>Last Name</p>
+      <input id="registerLastName" class="registerTextfield" type="text">
+      <span id="errorRegisterLastName" class="registerErrorSpan"></span>
+      </br>
+      
+      <p>Username</p>
+      <input id="registerUsername" class="registerTextfield" type="text">
+      <span id="errorRegisterUsername" class="registerErrorSpan"></span>
+      </br>
+      
+      <p>Email</p>
+      <input id="registerEmail" class="registerTextfield" type="text">
+      <span id="errorRegisterEmail" class="registerErrorSpan"></span>
+      </br>
+
+      <p>Organization</p>
+      <input id="registerOrganization" class="registerTextfield" type="text">
+      <span id="errorRegisterOrganization" class="registerErrorSpan"></span>
+      </br>
+      
+      <p>Password</p>
+      <input id="registerPassword" class="registerTextfield" type="password">
+      <span id="errorRegisterPassword" class="registerErrorSpan"></span>
+      </br>
+      
+      <p>Password confirmation</p>
+      <input id="registerPasswordConfirmation" type="password">
+      <span id="errorRegisterPasswordConfirmation" class="registerErrorSpan"></span>
+      <span id="errorRegisterPasswordsDoNotMatch" class="registerErrorSpan"></span>
+      </br>
+    </div> 
+
+    </br>
+    
+    <p>Gender</p>
+    <input id="genderMasculine" class="genderRadio" type="radio" name="gender" value="Masculine">Masculine
+    <span id="errorGender"></span>
+    </br>
+    <input id="genderFemenine" class="genderRadio" type="radio" name="gender" value="Femenine">Femenine
+    </br>
+    </br>
+    
+    <p>Country</p>
+      <select id="countrySelection">
+        <option value="0">Select a country...</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Australia">Australia</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Brazil">Germany</option>
+        <option value="China">China</option>
+        <option value="Colombia">Colombia</option>
+        <option value="Denmark">Denmark</option>
+        <option value="Finland">Finland</option>
+        <option value="Germany">Germany</option>
+        <option value="Italy">Italy</option>
+        <option value="Hungary">Hungary</option>
+        <option value="Mexico">Mexico</option>
+        <option value="Spain">Spain</option>
+        <option value="United States">United States</option>
+        <option value="Russia">Russia</option>
+      </select>
+      <span id="errorCountrySelection" class="registerErrorSpan"></span>
+    </br>
+    </br>
+
+
+    
+    <input id="submitRegister" type="submit" value="Register">
+  </fieldset> 
+  <script type="text/javascript" src="js/loginRegisterValidation.js"></script>
+</body>
+</html>

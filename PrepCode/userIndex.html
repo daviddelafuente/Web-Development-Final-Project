@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> PrepCode </title>
+    <link rel="stylesheet" type="text/css" href="css/styleAdminindex.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CodePrep</a>
+    </div>
+    <ul class="nav navbar-nav" id="menu">
+      <li class="home selected"><a href="#">Home</a></li>
+      <li class="Problem"><a href="#" >Problems</a></li>  
+      <li class="UserProfile"><a href="#">User Profile</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li id="Logout"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div id="homeSection" class="selectedSection">
+    <legend> News </legend>
+    <div id="NewsLink" class ="NewsAndProblems">
+
+    </div>
+  </div>
+
+  <div id="ProblemSection" class="notSelectedSection">
+    <legend> Problems </legend>
+    <input type="text" name="search" placeholder="Search by Name or ID" id="NameSearch"/><br>
+
+    <button data-toggle="collapse" data-target="#demo" class="InputAProb">Tags</button>
+    <div id="demo" class="collapse">
+      <ul class="checkbox-grid">
+        <li><input type="checkbox" name="Tags" value="Arrays"/> Arrays </li>
+        <li><input type="checkbox" name="Tags" value="Math" /> Math</li>
+        <li><input type="checkbox" name="Tags" value="Linked List" /> Linked List </li>
+        <li><input type="checkbox" name="Tags" value="Tree" /> Tree</li>
+        <li><input type="checkbox" name="Tags" value="Hash"/> Hash </li>
+        <li><input type="checkbox" name="Tags" value="BFS" /> Breadth-First Search</li>
+        <li><input type="checkbox" name="Tags" value="DFS"/> Depth-Frist Search </li>
+        <li><input type="checkbox" name="Tags" value="Backtracking" /> Backtracking </li>
+        <li><input type="checkbox" name="Tags" value="String"/> String </li>
+        <li><input type="checkbox" name="Tags" value="BinarySerch"/> Binary Search </li>
+        <li><input type="checkbox" name="Tags" value="Greedy"/> Greedy</li>
+        <li><input type="checkbox" name="Tags" value="DynamicProgramming" /> Dynamic Programming</li>
+        <li><input type="checkbox" name="Tags" value="BitManipulation" /> Bit Manipulation</li>
+        <li><input type="checkbox" name="Tags" value="Graph" /> Graph</li>
+
+        <li><input type="checkbox" name="Tags" value="Microsoft"/> Microsoft</li>
+        <li><input type="checkbox" name="Tags" value="Google"/> Google</li>
+        <li><input type="checkbox" name="Tags" value="Facebook" /> Facebook</li>
+        <li><input type="checkbox" name="Tags" value="Amazon" /> Amazon</li>
+        <li><input type="checkbox" name="Tags" value="Uber" /> Uber</li>
+        <li><input type="checkbox" name="Tags" value="Twitter" /> Twitter</li>
+        <li><input type="checkbox" name="Tags" value="Apple" /> Apple</li>
+        <li><input type="checkbox" name="Tags" value="Bloomberg" /> Bloomberg</li>
+      </ul>
+    </div>
+    <input type="submit" class="SubmmitSearch" value="Submmit Search" id="subser"/>
+  </fieldset>
+    <div id="ProblemLink" class ="Problems">
+
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/userIndex.js"></script>
+</body>
+
+
+</html>

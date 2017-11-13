@@ -1,0 +1,18 @@
+.notSelectedSection{
+    display: none;
+}
+
+.selectedSection{
+    display: block;
+}
+
+.checkbox-grid li {
+  border: 1px transparent solid;
+display:inline-block;
+width:12em;
+}
+
+#AAdminSection, #AProblemSection, #ANewsSection, #homeSection, #ProblemSection{
+  width: 80%;
+    margin: 0 auto;
+}

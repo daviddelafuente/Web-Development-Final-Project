@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> PrepCode - Admin Login</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="body">
+  <div>
+  <h1 class="h1">Prep Code Admin</h1>
+  <span style id="infoSpan">
+  Creating solutions from a network of problems.
+  </span>
+  </div>
+
+  <fieldset id="loginFieldset">
+    <legend class="legend">Login</legend>
+    
+    <div>
+      <p>Username</p>
+      <input id="loginUserName" class="loginTextfield" type="text">
+      <span id="errorLoginUsername" class="loginErrorSpan"></span>
+    
+      <p>Password</p>
+      <input id="loginPassword" class="loginTextfield" type="password">
+      <span id="errorLoginPassword" class="loginErrorSpan"></span>
+      </br>
+    </div>
+    
+    <input id="submitLoginAdmin" type="submit" value="Login">
+  </fieldset>
+  
+  </br>
+
+  <script type="text/javascript" src="js/loginRegisterValidation.js"></script>
+</body>
+</html>

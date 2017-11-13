@@ -1,0 +1,118 @@
+Fbody {
+	font-family: Verdana, sans-serif;
+	font-size: 13px;
+	color: #4F545F;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	background-color: #397db2;
+	margin: 0;
+	padding: 20px;
+	color: white;
+}
+
+fieldset{
+	border: 2px dashed #dddddd;
+	margin: 20px;
+	padding: 20px;
+    color:green;
+}
+
+legend {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+
+#infoSpan {
+	background-color: #CCE9F8;
+    border: 1px solid #6278B0;
+    color: green;
+    padding: 20px 40px;
+    display: block;
+}
+
+.formElement{
+    font-size: 1em;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+select{
+    font-size: 1em;
+    width: 250px;
+}
+
+#submitForm{
+    text-align: center;
+    background: #56C56F;
+}
+#cancelForm{
+    text-align: center;
+    background: #D9534F;
+}
+
+input[type=submit]:#submitRegister{
+    padding: 10px 20px;
+    font-size: 1.3em;
+    color: white;
+    margin: 0 0 0 20px;
+    border: 0;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+/*ul#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC;
+}
+ul#menu li{
+    float: left;
+    padding: 20px;
+}
+
+ul#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #CCC;
+    overflow: hidden;
+}
+
+ul#menu li:hover, ul#menu li.selected{
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+}*/
+
+#errorLoginUsername, #errorLoginPassword, #errorRegisterFirstName,
+#errorRegisterLastName, #errorRegisterUsername, #errorRegisterEmail,
+#errorRegisterPassword, #errorRegisterPasswordConfirmation, #errorGender,
+#errorCountrySelection, #errorRegisterPasswordsDoNotMatch, #errorCommentSection, #errorRegisterOrganization{
+    color: red;
+}
+
+.selectedSection
+{
+    display : block;
+}
+
+.notSelectedSection
+{
+    display : none;
+}
+
+.userProfile
+{
+    background-color: #a1c7eb
+}
+
+.comment
+{
+    background-color: #f5da77
+}
